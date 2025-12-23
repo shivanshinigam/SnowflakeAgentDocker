@@ -178,24 +178,3 @@ Which customer has the highest total sales
 
 The result should return a table with the customer(s) and totals.
 
-Notes & troubleshooting
-
-- If you want to use SSH/SSH keys to push to GitHub, change the `origin` remote to the SSH URL: `git remote set-url origin git@github.com:username/repo.git`.
-- Keep credentials secret and use environment variables only in Elastic Beanstalk configuration, not in code.
-- If you see errors related to WSGI or Gunicorn, confirm you used the Docker platform and uploaded a ZIP with `Dockerfile` at the root.
-
-Optional next steps (suggested)
-
-- Add a `.gitignore` to exclude caches and local artifacts.
-- Add a simple CI workflow (GitHub Actions) that builds the Docker image or runs lints.
-- Add a short CONTRIBUTING.md describing how to run locally and how to add changes.
-
----
-
-If you want, I can:
-
-- Add a `.gitignore` and commit it.
-- Switch remote to SSH for you.
-- Create a GitHub Actions workflow to build and test the image.
-
-Let me know which of those you want next.
